@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("message", message => {
-  if (message.author.id === "415704844221808640") message.reply("**Busta!** Straight **Busta!**");
+  if (message.author.id === "417810155447648267") message.reply("This is the **last** dance for Lance Vance!");
 });
 
 client.on("message", message => {
